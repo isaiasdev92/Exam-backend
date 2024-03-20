@@ -1,0 +1,7 @@
+@CleanTemplate.Services.Api_HostAddress = http://localhost:5285
+{{$guid}}
+
+GET {{CleanTemplate.Services.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
